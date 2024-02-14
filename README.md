@@ -1,1 +1,1 @@
-This repo is all about my details. Thank you for reading.
+This is my portfolio and all of my details and documents are mentioned here. Thank you for reading.
