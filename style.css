@@ -146,9 +146,9 @@ section {
     min-height: fit-content;
 }
 
-.section-container {
+/* .section-container {
     display: flex;
-}
+} */
 
 #profile {
     display: flex;
@@ -179,6 +179,20 @@ section {
     margin-bottom: 1rem;
 }
 
-.text_p2 {
-    
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#socials_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/* Icons */
+.icon {
+    cursor: pointer;
+    height: 2rem;
 }
