@@ -5,4 +5,119 @@
     #hamburger-nav {
         display: flex;
     }
+
+    #experience, .experience-details-container {
+        margin-top: 2rem;
+    }
+
+    #profile, .section-container {
+        display: block;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    section, .section-container {
+        height: fit-content;
+    }
+
+    section {
+        margin: 0.5%;
+    }
+
+    .pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #projects .experience-details-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 3rem 2rem 3rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #contact,footer {
+        height: 40vh;
+    } 
+    .logo {
+        font-size: 1.5rem;
+    }
+    #profile {
+        height: 83vh;
+        margin-bottom: 0;
+    }
+    article {
+        font-size: 1rem;
+    }
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .about-container, .contact-upper-container, .btn-container {
+        flex-wrap: wrap;
+    }
+    .contact-info-container {
+        margin: 0;
+    }
+    .contact-info-container p, .links li a {
+        font-size: 1rem;
+    }
+    .exp-subtitle {
+        font-size: 1.25rem;
+    }
+    .links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .pic-container {
+        width: auto;
+        height: 46vh;
+        justify-content: center;
+    }
+    .main-img {
+        height: 36vh;
+    }
+    .text-p1 {
+        font-size: 1rem;
+    }
+    .text-p2 {
+        font-size: 1.2rem;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .text-container {
+        text-align: justify;
+        padding: 0 3rem;
+    }
+    .about-container {
+        gap: 2rem;
+        margin: 0 3rem 2rem 3rem;
+        display: flex;
+        flex-direction: column;
+    }
+    #projects .experience-details-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 3rem 2rem 3rem;
+    }
 }
