@@ -155,7 +155,7 @@
                         <article>
                             <img src="resources/checkmark.png" alt="Experience Icon" class="icon">
                             <div>
-                                <h3>Git</h3>
+                                <h3>Java</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
@@ -174,10 +174,10 @@
                 <div class="article-container">
                     <img src="resources/project-1.jpg" alt="Project 1" class="project-img">
                 </div>
-                <h2 class="exp-subtitle project-title">GenZee Wears</h2>
+                <h2 class="exp-subtitle project-title">Project One</h2>
                 <div class="btn-container">
                     <button class="btn project-btn" onclick="location.href='https://github.com/saloneesthss/GenZee_Wears.git'">Github</button>
-                    <button class="btn project-btn" onclick="location.href='https://github.com/saloneesthss/GenZee_Wears.git'">Live Demo</button>
+                    <button class="btn project-btn" onclick="showToast(1)">Live Demo</button>
                 </div>
             </div>
             <div class="details-container color-container">
@@ -187,7 +187,7 @@
                 <h2 class="exp-subtitle project-title">Project Two</h2>
                 <div class="btn-container">
                     <button class="btn project-btn" onclick="location.href='https://github.com/saloneesthss/travel_app.git'">Github</button>
-                    <button class="btn project-btn" onclick="location.href='https://github.com/saloneesthss/travel_app.git'">Live Demo</button>
+                    <button class="btn project-btn" onclick="showToast(2)">Live Demo</button>
                 </div>
             </div>
             <div class="details-container color-container">
@@ -197,7 +197,7 @@
                 <h2 class="exp-subtitle project-title">Project Three</h2>
                 <div class="btn-container">
                     <button class="btn project-btn" onclick="location.href='https://github.com/saloneesthss/clinigo.git'">Github</button>
-                    <button class="btn project-btn" onclick="location.href='https://github.com/saloneesthss/clinigo.git'">Live Demo</button>
+                    <button class="btn project-btn" onclick="showToast(3)">Live Demo</button>
                 </div>
             </div>
         </div>
@@ -231,6 +231,7 @@
         <p>Copyright &#169; 2026 Salonee Shrestha, All Rights Reserved.</p>
     </footer>
 
+    <div id="toast" class="toast"></div>
     <script src="script.js"></script>
 </body>
 </html>
